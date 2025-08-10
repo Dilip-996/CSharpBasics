@@ -1,9 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36221.1 d17.14
+VisualStudioVersion = 17.14.36221.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpBasics", "CSharpBasics\CSharpBasics.csproj", "{0177CDBD-44DE-4ACF-B432-6A37FCAF890F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberBetween1and100", "CSharpBasics\NumberBetween1and100.csproj", "{0177CDBD-44DE-4ACF-B432-6A37FCAF890F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterOKtoExit", "EnterOKtoExit\EnterOKtoExit.csproj", "{571B8747-E40B-4C81-9E92-FFAA76459F27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compute the factorial", "Compute the factorial\Compute the factorial.csproj", "{18BF0989-3975-4FFF-BA78-87444197E9C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessTheNumber", "GuessTheNumber\GuessTheNumber.csproj", "{41BC58AE-36B8-4D5A-AC8E-407C6A7BC9D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxOfNumbers", "MaxOfNumbers\MaxOfNumbers.csproj", "{0D637C9C-A5CF-45DD-9267-D285FD0CE262}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{0177CDBD-44DE-4ACF-B432-6A37FCAF890F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0177CDBD-44DE-4ACF-B432-6A37FCAF890F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0177CDBD-44DE-4ACF-B432-6A37FCAF890F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{571B8747-E40B-4C81-9E92-FFAA76459F27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{571B8747-E40B-4C81-9E92-FFAA76459F27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{571B8747-E40B-4C81-9E92-FFAA76459F27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{571B8747-E40B-4C81-9E92-FFAA76459F27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18BF0989-3975-4FFF-BA78-87444197E9C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18BF0989-3975-4FFF-BA78-87444197E9C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18BF0989-3975-4FFF-BA78-87444197E9C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18BF0989-3975-4FFF-BA78-87444197E9C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41BC58AE-36B8-4D5A-AC8E-407C6A7BC9D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41BC58AE-36B8-4D5A-AC8E-407C6A7BC9D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41BC58AE-36B8-4D5A-AC8E-407C6A7BC9D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41BC58AE-36B8-4D5A-AC8E-407C6A7BC9D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D637C9C-A5CF-45DD-9267-D285FD0CE262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D637C9C-A5CF-45DD-9267-D285FD0CE262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D637C9C-A5CF-45DD-9267-D285FD0CE262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D637C9C-A5CF-45DD-9267-D285FD0CE262}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
