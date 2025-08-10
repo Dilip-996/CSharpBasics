@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessTheNumber", "GuessTheN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxOfNumbers", "MaxOfNumbers\MaxOfNumbers.csproj", "{0D637C9C-A5CF-45DD-9267-D285FD0CE262}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacebookNameDisplay", "FacebookNameDisplay\FacebookNameDisplay.csproj", "{ED613233-4587-4892-8821-010999BBF6B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{0D637C9C-A5CF-45DD-9267-D285FD0CE262}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D637C9C-A5CF-45DD-9267-D285FD0CE262}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D637C9C-A5CF-45DD-9267-D285FD0CE262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED613233-4587-4892-8821-010999BBF6B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED613233-4587-4892-8821-010999BBF6B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED613233-4587-4892-8821-010999BBF6B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED613233-4587-4892-8821-010999BBF6B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
