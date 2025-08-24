@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Retry5UniqueNumbers", "Retr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisplayUniqueNumbers", "DisplayUniqueNumbers\DisplayUniqueNumbers.csproj", "{996F6D31-E96C-412C-9BD9-BB6377FE6A1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberBetween1and100.UI", "NumberBetween1and100.UI\NumberBetween1and100.UI.csproj", "{F2C096DD-9EBD-4665-A44E-48C8B1894DD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{996F6D31-E96C-412C-9BD9-BB6377FE6A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{996F6D31-E96C-412C-9BD9-BB6377FE6A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{996F6D31-E96C-412C-9BD9-BB6377FE6A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+                {F2C096DD-9EBD-4665-A44E-48C8B1894DD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+                {F2C096DD-9EBD-4665-A44E-48C8B1894DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+                {F2C096DD-9EBD-4665-A44E-48C8B1894DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+                {F2C096DD-9EBD-4665-A44E-48C8B1894DD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
