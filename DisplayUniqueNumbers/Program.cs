@@ -21,12 +21,12 @@ namespace DisplayUniqueNumbers
 
                     break;
                 }
-                numbers = numbers.Distinct().ToList();
+                
                 if (int.TryParse(userInput, out int input))
                 {
                     numbers.Add(input);
                 }
-
+                numbers = numbers.Distinct().ToList();
             }
             numbers.Sort();
             Console.WriteLine("The Unique numbers are : {0}", string.Join(",", numbers));
