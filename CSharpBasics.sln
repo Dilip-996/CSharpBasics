@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacebookNameDisplay.UI", "F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invalid List", "Invalid List\Invalid List.csproj", "{362DF429-D76B-47D5-A714-85AF321518EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consecutive", "Consecutive\Consecutive.csproj", "{533CA7CA-F39D-4346-A853-979FEB45C5A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invalid_Time", "Invalid_Time\Invalid_Time.csproj", "{E3864B1B-59C1-44AC-9416-5BEBB6C72FB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{362DF429-D76B-47D5-A714-85AF321518EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{362DF429-D76B-47D5-A714-85AF321518EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{362DF429-D76B-47D5-A714-85AF321518EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{533CA7CA-F39D-4346-A853-979FEB45C5A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{533CA7CA-F39D-4346-A853-979FEB45C5A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{533CA7CA-F39D-4346-A853-979FEB45C5A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{533CA7CA-F39D-4346-A853-979FEB45C5A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3864B1B-59C1-44AC-9416-5BEBB6C72FB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3864B1B-59C1-44AC-9416-5BEBB6C72FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3864B1B-59C1-44AC-9416-5BEBB6C72FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3864B1B-59C1-44AC-9416-5BEBB6C72FB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
