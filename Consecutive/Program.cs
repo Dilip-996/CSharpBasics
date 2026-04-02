@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices.WindowsRuntime;
 using System.Text;
 using System.Threading.Tasks;
 /*1- Write a program and ask the user to enter a few numbers separated by a hyphen. 
@@ -15,48 +16,54 @@ namespace Consecutive
     {
         static void Main(string[] args)
         {
-            var input = Console.ReadLine().Trim();
-            var inputlist = new List<int>();
-            var splitinput = input.Split('-');
+            var input = Console.ReadLine();
             if (String.IsNullOrEmpty(input))
             {
                 return;
             }
+            input=input.Trim();
+
+            List<int> inputlist = GetToList(input);
+            bool isDistinct = inputlist.Count == inputlist.Distinct().Count();
+            if (isDistinct)
+            {
+                Console.WriteLine("Numbers are Distinct");
+            }
             else
             {
-                foreach (var i in splitinput)
-                {
-                    inputlist.Add(Convert.ToInt32(i));
-                }
-                bool isDistinct = inputlist.Count == inputlist.Distinct().Count();
-                if (isDistinct)
-                {
-                    Console.WriteLine("Numbers are Distinct");
-                }
-                else
-                {
-                    Console.WriteLine("Duplicate");
-                }
-                
-                bool isConsecutive = true;
-                for (int i = 0; i < inputlist.Count - 1; i++)
-                {
-
-                    int value2 = inputlist[i + 1];
-                    int value1 = inputlist[i];
-                    if (Math.Abs(value1 - value2) != 1)
-                    {
-                        isConsecutive = false;
-                        break;
-                    }
-                }
-                if (isConsecutive)
-                {
-                    Console.WriteLine("Consecutive");
-                }
-                else
-                    Console.WriteLine("Not Consecutive");
+                Console.WriteLine("Duplicate");
             }
+
+            bool isConsecutive = true;
+            for (int i = 0; i < inputlist.Count - 1; i++)
+            {
+
+                int value2 = inputlist[i + 1];
+                int value1 = inputlist[i];
+                if (Math.Abs(value1 - value2) != 1)
+                {
+                    isConsecutive = false;
+                    break;
+                }
+            }
+            if (isConsecutive)
+            {
+                Console.WriteLine("Consecutive");
+            }
+            else
+                Console.WriteLine("Not Consecutive");
+        }
+        public static List<int> GetToList(string input)
+        {
+            var inputlist = new List<int>();
+            var splitinput = input.Split('-');
+
+            foreach (var i in splitinput)
+            {
+                inputlist.Add(Convert.ToInt32(i));
+            }
+
+            return inputlist;
 
         }
     }

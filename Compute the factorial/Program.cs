@@ -14,13 +14,18 @@ namespace Compute_the_factorial
         static void Main(string[] args)
         {
             Console.WriteLine("Enter a Number to calculate its factorial");
-            int Result = 1;
             int number = Convert.ToInt32(Console.ReadLine());
-            for (int i = 1; i <= number; i++)
+            Console.WriteLine("{0} Factorial = {1}",number, Factorial(number));
+        }
+        public static int Factorial(int numbers)
+        {
+            int Result = 1;
+            
+            for (int i = 1; i <= numbers; i++)
             {
                 Result *= i;
             }
-            Console.WriteLine("{0} Factorial = {1}",number,Result);
+            return Result;
         }
     }
 }
